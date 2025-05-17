@@ -4,9 +4,6 @@
 - [New Features](#new-features)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
 - [Usage](#usage)
 
 
@@ -64,58 +61,6 @@ The Blogging Website is built using the following technologies:
 - **Additional Technologies:**<br/>
   💫 Redux: Used for state management within the React application.<br/>
   💫 Nodemailer: Used for email verification and sending email notifications.<br/>
-
----
-
-## Getting Started
-To set up this project locally, follow the instructions below.
-
-### Prerequisites
-Before you begin, make sure you have the following installed on your system:
-- Node.js and npm (Node Package Manager)
-- Git
-
-### Installation
-
-1. Clone this GitHub repository to your local machine:
-   ```
-   git clone https://github.com/Prashant0664/All-Blogs-V2.git
-   ```
-
-2. Change into the project directory:
-   ```
-   cd Blog-website
-   ```
-
-3. Install the backend dependencies:
-   ```
-   cd backend
-   npm install
-   ```
-
-4. Install the frontend dependencies:
-   ```
-   cd ../client
-   npm install
-   ```
-
-5. Set up your MongoDB database and configure the connection details in the backend's `.env` file.
-
-_IMP: Seperate setup of both frontend and backend is given in *client* and *backend* folders *Readme.md*_
-
-6. Start the backend server:
-   ```
-   cd ../backend
-   npm start
-   ```
-
-7. Start the frontend development server:
-   ```
-   cd ../client
-   npm start
-   ```
-
-8. Open your web browser and navigate to `http://localhost:3000` to access the Blogging Website.
 
 ---
 
